@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Shared.Data.UoW
 {
-    internal class UnitOfWork : IUnitOfWork, IDisposable
+    public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private readonly FDbContext _context;
 

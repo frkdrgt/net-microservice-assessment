@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.Business.Dto 
+namespace Shared.Business
 {
     public class ContactDetailResponseDto
     {
