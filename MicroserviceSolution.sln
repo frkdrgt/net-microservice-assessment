@@ -5,15 +5,17 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EF5307E3-1D50-4E1F-A350-60BB8983CB12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactAPI", "Services\ContactAPI\ContactAPI\ContactAPI.csproj", "{E03D41D1-3FD0-4954-AC71-02DA36D8DCB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactAPI", "Services\ContactAPI\ContactAPI\ContactAPI.csproj", "{E03D41D1-3FD0-4954-AC71-02DA36D8DCB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportAPI", "Services\ReportAPI\ReportAPI\ReportAPI.csproj", "{4DC33117-85B9-4FE1-B645-1B2CAB014A8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportAPI", "Services\ReportAPI\ReportAPI\ReportAPI.csproj", "{4DC33117-85B9-4FE1-B645-1B2CAB014A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{3E165942-24DC-47C0-B8DF-E97E471BBF9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{3E165942-24DC-47C0-B8DF-E97E471BBF9E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{FD63B6DC-8DDF-4B0C-AA5A-21C7C1E89EDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Data", "Shared\Shared.Data\Shared.Data.csproj", "{9C3B3748-DF8F-45D2-AEB9-1B3DCB12D154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Data", "Shared\Shared.Data\Shared.Data.csproj", "{9C3B3748-DF8F-45D2-AEB9-1B3DCB12D154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Business", "Shared\Shared.Business\Shared.Business.csproj", "{C4F5B547-193D-483E-B038-4CDFADFAFE79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{9C3B3748-DF8F-45D2-AEB9-1B3DCB12D154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3B3748-DF8F-45D2-AEB9-1B3DCB12D154}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3B3748-DF8F-45D2-AEB9-1B3DCB12D154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F5B547-193D-483E-B038-4CDFADFAFE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F5B547-193D-483E-B038-4CDFADFAFE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F5B547-193D-483E-B038-4CDFADFAFE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F5B547-193D-483E-B038-4CDFADFAFE79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{E03D41D1-3FD0-4954-AC71-02DA36D8DCB1} = {EF5307E3-1D50-4E1F-A350-60BB8983CB12}
 		{4DC33117-85B9-4FE1-B645-1B2CAB014A8B} = {EF5307E3-1D50-4E1F-A350-60BB8983CB12}
 		{9C3B3748-DF8F-45D2-AEB9-1B3DCB12D154} = {FD63B6DC-8DDF-4B0C-AA5A-21C7C1E89EDD}
+		{C4F5B547-193D-483E-B038-4CDFADFAFE79} = {FD63B6DC-8DDF-4B0C-AA5A-21C7C1E89EDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8669A84-49C4-407C-BFE3-0C03BDC13681}
