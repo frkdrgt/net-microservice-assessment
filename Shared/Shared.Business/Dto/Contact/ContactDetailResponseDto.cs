@@ -1,4 +1,5 @@
-﻿using Shared.Data.Models;
+﻿using Shared.Business.Dto;
+using Shared.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,6 @@ namespace Shared.Business
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string CompanyName { get; set; }
-        public  List<ContactInformation> ContactInformations { get; set; }
+        public  List<ContactInformationDto> ContactInformations { get; set; }
     }
 }

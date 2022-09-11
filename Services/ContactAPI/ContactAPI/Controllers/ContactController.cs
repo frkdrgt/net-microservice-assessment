@@ -46,10 +46,22 @@ namespace ContactAPI.Controllers
         }
 
         [AllowAnonymous]
-        [HttpGet("Get")]
+        [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _contactRepository.GetAll();
+            if (!result.IsSucceed)
+            {
+                return NotFound(result.Message);
+            }
+            return Ok(result.ResultObject);
+        }
+
+        [AllowAnonymous]
+        [HttpGet("Get")]
+        public async Task<IActionResult> Get(Guid id)
+        {
+            var result = await _contactRepository.Get(id);
             if (!result.IsSucceed)
             {
                 return NotFound(result.Message);
