@@ -13,7 +13,11 @@ using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using ReportAPI.Consumers;
+using Shared.Business.Abstract;
+using Shared.Business.Dto;
+using Shared.Business.Services;
 using Shared.Data;
+using Shared.Data.Models;
 using Shared.Data.UoW;
 using System;
 using System.Collections.Generic;
@@ -64,14 +68,16 @@ namespace ReportAPI
 
             var config = new MapperConfiguration(cfg =>
             {
-
+                cfg.CreateMap<Report, ReportAddRequestDto>().ReverseMap();
             });
 
             IMapper mapper = config.CreateMapper();
             services.AddSingleton(mapper);
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            //services.AddTransient<IContactRepository, ContactRepository>();
+            services.AddTransient<IContactRepository, ContactRepository>();
+            services.AddTransient<IReportRepository, ReportRepository>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Report Api", Version = "v1" });

@@ -68,6 +68,8 @@ namespace ContactAPI
                 cfg.CreateMap<Contact, ContactAddRequestDto>().ReverseMap();
                 cfg.CreateMap<ContactInformation, ContactInformationAddRequestDto>().ReverseMap();
                 cfg.CreateMap<ContactInformation, ContactInformationDto>().ReverseMap();
+                cfg.CreateMap<Report, ReportAddRequestDto>().ReverseMap();
+
             });
 
             IMapper mapper = config.CreateMapper();
@@ -76,6 +78,7 @@ namespace ContactAPI
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IContactRepository, ContactRepository>();
             services.AddTransient<IContactInformationRepository, ContactInformationRepository>();
+            services.AddTransient<IReportRepository, ReportRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Contact Api", Version = "v1" });
