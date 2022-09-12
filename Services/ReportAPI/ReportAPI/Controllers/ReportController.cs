@@ -18,12 +18,24 @@ namespace ReportAPI.Controllers
             _reportRepository = reportRepository;
         }
 
-        //FOR TEST
+        
+        [AllowAnonymous]
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAll()
+        {
+            var result = await _reportRepository.GetAll();
+            if (!result.IsSucceed)
+            {
+                return NotFound(result.Message);
+            }
+            return Ok(result.ResultObject);
+        }
+
         [AllowAnonymous]
         [HttpGet("Get")]
         public async Task<IActionResult> Get(Guid id)
         {
-            var result = await _reportRepository.CreateReport(id);
+            var result = await _reportRepository.Get(id);
             if (!result.IsSucceed)
             {
                 return NotFound(result.Message);

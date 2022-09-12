@@ -9,5 +9,6 @@ namespace Shared.Business.Dto
     public class ReportCreateDto
     {
         public Guid ReportId { get; set; }
+        public string Path { get; set; }
     }
 }

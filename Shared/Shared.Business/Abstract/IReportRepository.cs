@@ -10,6 +10,8 @@ namespace Shared.Business.Abstract
     public interface IReportRepository
     {
         Task<ApiResult<SuccessResponseDto>> Add(ReportAddRequestDto requestDto);
-        Task<ApiResult<SuccessResponseDto>> CreateReport(Guid id);
+        Task<ApiResult<List<ReportViewDto>>> CreateReport(ReportCreateDto requestDto);
+        Task<ApiResult<List<ReportListDto>>> GetAll();
+        Task<ApiResult<ReportDetailDto>> Get(Guid id);
     }
 }

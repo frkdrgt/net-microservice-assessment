@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.Data.Models
+namespace Shared.Business.Dto
 {
-    public class Report
+    public class ReportListDto
     {
         public Guid Id { get; set; }
         public DateTime RequestDate { get; set; }

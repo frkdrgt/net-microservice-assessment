@@ -69,6 +69,8 @@ namespace ReportAPI
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<Report, ReportAddRequestDto>().ReverseMap();
+                cfg.CreateMap<Report, ReportListDto>().ReverseMap();
+                cfg.CreateMap<Report, ReportDetailDto>().ReverseMap();
             });
 
             IMapper mapper = config.CreateMapper();

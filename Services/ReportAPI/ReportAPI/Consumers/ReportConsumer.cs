@@ -1,6 +1,7 @@
 ﻿using MassTransit;
 using Shared.Business.Abstract;
 using Shared.Business.Dto;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace ReportAPI.Consumers
@@ -16,8 +17,9 @@ namespace ReportAPI.Consumers
         public async Task Consume(ConsumeContext<ReportCreateDto> context)
         {
             var data = context.Message;
-            //Create report
-            //await _reportRepository.Add(data);
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "ReportFiles");
+            data.Path = path;
+            await _reportRepository.CreateReport(data);
 
             await Task.FromResult<bool>(true);
         }

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Shared.Business.Abstract;
 using Shared.Business.Dto;
 using System;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace ContactAPI.Controllers
@@ -23,7 +24,6 @@ namespace ContactAPI.Controllers
         }
 
 
-        //TODO:
         [HttpPost("CreateReport")]
         public async Task<IActionResult> CreateReport()
         {
@@ -35,15 +35,14 @@ namespace ContactAPI.Controllers
             {
                 return NotFound(result.Message);
             }
-            
+
             ReportCreateDto reportCreateDto = new ReportCreateDto();
-            reportCreateDto.ReportId = Guid.Parse(result.ResultObject.Id.ToString());
+            reportCreateDto.ReportId = Guid.Parse(result.ResultObject.Id.ToString()); 
             Uri uri = new Uri("rabbitmq://localhost/reportQueue");
             var endPoint = await _bus.GetSendEndpoint(uri);
             await endPoint.Send(reportCreateDto);
             
-            return Ok(result.ResultObject);
-             
+            return Ok(result.ResultObject); 
         }
 
         [AllowAnonymous]

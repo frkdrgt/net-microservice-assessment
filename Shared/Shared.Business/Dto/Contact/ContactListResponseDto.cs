@@ -8,6 +8,7 @@ namespace Shared.Business.Dto
 {
     public class ContactListResponseDto
     {
+        public Guid Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string CompanyName { get; set; }
