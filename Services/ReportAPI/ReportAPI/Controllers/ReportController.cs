@@ -32,7 +32,7 @@ namespace ReportAPI.Controllers
         }
 
         [AllowAnonymous]
-        [HttpGet("Get")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> Get(Guid id)
         {
             var result = await _reportRepository.Get(id);
