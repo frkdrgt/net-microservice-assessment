@@ -31,7 +31,7 @@ namespace ContactAPI.Controllers
         }
 
         [AllowAnonymous]
-        [HttpDelete("Delete")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
             var result = await _contactInformationRepository.Delete(id);
