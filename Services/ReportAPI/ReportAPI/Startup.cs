@@ -42,11 +42,11 @@ namespace ReportAPI
             {
                 x.AddConsumer<ReportConsumer>();
                 x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(cfg =>
-                { 
-                    cfg.Host(new Uri("rabbitmq://localhost"), h =>
+                {
+                    cfg.Host(new Uri(Configuration.GetSection("RabbitMqConnection").GetSection("HostName").Value), h =>
                     {
-                        h.Username("guest");
-                        h.Password("guest");
+                        h.Username(Configuration.GetSection("RabbitMqConnection").GetSection("Username").Value);
+                        h.Password(Configuration.GetSection("RabbitMqConnection").GetSection("Password").Value);
                     });
                     cfg.ReceiveEndpoint("reportQueue", ep =>
                     {

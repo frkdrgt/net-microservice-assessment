@@ -43,15 +43,14 @@ namespace ContactAPI
             {
                 x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(config =>
                 {
-
-                    config.Host(new Uri("rabbitmq://localhost"), h =>
+                    config.Host(new Uri(Configuration.GetSection("RabbitMqConnection").GetSection("HostName").Value), h =>
                     {
-                        h.Username("guest");
-                        h.Password("guest");
+                        h.Username(Configuration.GetSection("RabbitMqConnection").GetSection("Username").Value);
+                        h.Password(Configuration.GetSection("RabbitMqConnection").GetSection("Password").Value);
                     });
                 }));
             });
-
+           
             services.AddControllers().AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
