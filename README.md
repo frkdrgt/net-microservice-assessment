@@ -9,7 +9,10 @@ Solution'ı çalıştırdıktan sonra Package Manager Console ekranında Current
 
 # Çalıştırma
 
-Solution'ı açtıktan sonra Solution üzerine sağ tıklayarak Set Startup Projects tıklanır. Açılan ekranda Multiple startup projects seçilerek sırasıyla ContactAPI, ReportAPI ve APIGateway projeleri Start seçilir.
+Solution'ı açtıktan sonra Solution üzerine sağ tıklayarak Set Startup Projects tıklanır. Açılan ekranda Multiple startup projects seçilerek sıralamasını ve Actions'ı aşağıdaki gibi değiştiriliri.
+ContactAPI - Start 
+ReportAPI  - Start 
+APIGateway - Start seçilir.
 
 # Kullanma
 
