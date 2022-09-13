@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "0083fe34-11bc-44c4-af92-a764ae8c77f6",
+		"name": "MicroServices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3466721"
+	},
+	"item": [
+		{
+			"name": "Add Contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"rizahan\",\r\n  \"lastName\": \"osman\",\r\n  \"companyName\": \"nrk\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44315/contact-gateway/add",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"contact-gateway",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Contact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/contact-gateway/get/37248ed9-ff92-439b-adba-22a59f4459b1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"contact-gateway",
+						"get",
+						"37248ed9-ff92-439b-adba-22a59f4459b1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Contact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/contact-gateway/getall",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"contact-gateway",
+						"getall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Contact Information",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"contactId\": \"37248ed9-ff92-439b-adba-22a59f4459b1\",\r\n  \"informationType\": 0,\r\n  \"content\": \"5512044601\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44315/contact-gateway/informationadd",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"contact-gateway",
+						"informationadd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Contact Information",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/contact-gateway/informationdelete/fa9d8e8a-8998-4cff-984c-9b2c0c15e999",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"contact-gateway",
+						"informationdelete",
+						"fa9d8e8a-8998-4cff-984c-9b2c0c15e999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/contact-gateway/createreport",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"contact-gateway",
+						"createreport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Reports",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/report-gateway/getall",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"report-gateway",
+						"getall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Report Detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/report-gateway/get/aa838aba-0ca3-4282-bb6c-cec98150d606",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"report-gateway",
+						"get",
+						"aa838aba-0ca3-4282-bb6c-cec98150d606"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Contact",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44315/contact-gateway/delete/37248ed9-ff92-439b-adba-22a59f4459b1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44315",
+					"path": [
+						"contact-gateway",
+						"delete",
+						"37248ed9-ff92-439b-adba-22a59f4459b1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
