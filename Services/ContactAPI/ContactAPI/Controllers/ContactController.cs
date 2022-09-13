@@ -80,5 +80,18 @@ namespace ContactAPI.Controllers
             }
             return Ok(result.ResultObject);
         }
+
+        [AllowAnonymous]
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var result = await _contactRepository.Delete(id);
+            if (!result.IsSucceed)
+            {
+                return NotFound(result.Message);
+            }
+            return Ok(result.ResultObject);
+        }
+
     }
 }
