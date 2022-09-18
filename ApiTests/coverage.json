@@ -1,0 +1,2287 @@
+{
+  "ContactAPI.dll": {
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Services\\ContactAPI\\ContactAPI\\Program.cs": {
+      "ContactAPI.Program": {
+        "System.Void ContactAPI.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder ContactAPI.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Services\\ContactAPI\\ContactAPI\\Startup.cs": {
+      "ContactAPI.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration ContactAPI.Startup::get_Configuration()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void ContactAPI.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "87": 0,
+            "88": 0
+          },
+          "Branches": []
+        },
+        "System.Void ContactAPI.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "110": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void ContactAPI.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Services\\ContactAPI\\ContactAPI\\Controllers\\ContactController.cs": {
+      "ContactAPI.Controllers.ContactController": {
+        "System.Void ContactAPI.Controllers.ContactController::.ctor(Shared.Business.Abstract.IContactRepository,MassTransit.IBus,Shared.Business.Abstract.IReportRepository)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "ContactAPI.Controllers.ContactController/<Add>d__5": {
+        "System.Void ContactAPI.Controllers.ContactController/<Add>d__5::MoveNext()": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0
+          },
+          "Branches": [
+            {
+              "Line": 53,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 169,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ContactAPI.Controllers.ContactController/<CreateReport>d__4": {
+        "System.Void ContactAPI.Controllers.ContactController/<CreateReport>d__4::MoveNext()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 222,
+              "EndOffset": 224,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 222,
+              "EndOffset": 253,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ContactAPI.Controllers.ContactController/<Delete>d__8": {
+        "System.Void ContactAPI.Controllers.ContactController/<Delete>d__8::MoveNext()": {
+          "Lines": {
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "94": 0
+          },
+          "Branches": [
+            {
+              "Line": 89,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 169,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ContactAPI.Controllers.ContactController/<Get>d__7": {
+        "System.Void ContactAPI.Controllers.ContactController/<Get>d__7::MoveNext()": {
+          "Lines": {
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0
+          },
+          "Branches": [
+            {
+              "Line": 77,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 169,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ContactAPI.Controllers.ContactController/<GetAll>d__6": {
+        "System.Void ContactAPI.Controllers.ContactController/<GetAll>d__6::MoveNext()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 163,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Services\\ContactAPI\\ContactAPI\\Controllers\\ContactInformationController.cs": {
+      "ContactAPI.Controllers.ContactInformationController": {
+        "System.Void ContactAPI.Controllers.ContactInformationController::.ctor(Shared.Business.Abstract.IContactInformationRepository)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "ContactAPI.Controllers.ContactInformationController/<Add>d__2": {
+        "System.Void ContactAPI.Controllers.ContactInformationController/<Add>d__2::MoveNext()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 169,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ContactAPI.Controllers.ContactInformationController/<Delete>d__3": {
+        "System.Void ContactAPI.Controllers.ContactInformationController/<Delete>d__3::MoveNext()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 169,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Shared.Business.dll": {
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\Contact\\ContactDetailResponseDto.cs": {
+      "Shared.Business.ContactDetailResponseDto": {
+        "System.String Shared.Business.ContactDetailResponseDto::get_FirstName()": {
+          "Lines": {
+            "13": 4
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.ContactDetailResponseDto::get_LastName()": {
+          "Lines": {
+            "14": 2
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.ContactDetailResponseDto::get_CompanyName()": {
+          "Lines": {
+            "15": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Shared.Business.Dto.ContactInformationDto> Shared.Business.ContactDetailResponseDto::get_ContactInformations()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Services\\ContactInformationRepository.cs": {
+      "Shared.Business.Services.ContactInformationRepository": {
+        "System.Void Shared.Business.Services.ContactInformationRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Business.Services.ContactInformationRepository/<Add>d__3": {
+        "System.Void Shared.Business.Services.ContactInformationRepository/<Add>d__3::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 51,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 382,
+              "EndOffset": 384,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 382,
+              "EndOffset": 451,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Business.Services.ContactInformationRepository/<Delete>d__4": {
+        "System.Void Shared.Business.Services.ContactInformationRepository/<Delete>d__4::MoveNext()": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "66": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 350,
+              "EndOffset": 352,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 350,
+              "EndOffset": 378,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 639,
+              "EndOffset": 641,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 639,
+              "EndOffset": 697,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Services\\ContactRepository.cs": {
+      "Shared.Business.Services.ContactRepository": {
+        "System.Void Shared.Business.Services.ContactRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Business.Services.ContactRepository/<Add>d__3": {
+        "System.Void Shared.Business.Services.ContactRepository/<Add>d__3::MoveNext()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 51,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 382,
+              "EndOffset": 384,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 382,
+              "EndOffset": 451,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Business.Services.ContactRepository/<Delete>d__4": {
+        "System.Void Shared.Business.Services.ContactRepository/<Delete>d__4::MoveNext()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "63": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 350,
+              "EndOffset": 352,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 350,
+              "EndOffset": 378,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 639,
+              "EndOffset": 641,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 639,
+              "EndOffset": 697,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Business.Services.ContactRepository/<Get>d__5": {
+        "System.Void Shared.Business.Services.ContactRepository/<Get>d__5::MoveNext()": {
+          "Lines": {
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 386,
+              "EndOffset": 388,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 386,
+              "EndOffset": 411,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Business.Services.ContactRepository/<GetAll>d__6": {
+        "System.Void Shared.Business.Services.ContactRepository/<GetAll>d__6::MoveNext()": {
+          "Lines": {
+            "97": 0,
+            "98": 0,
+            "100": 0,
+            "102": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Services\\ReportRepository.cs": {
+      "Shared.Business.Services.ReportRepository": {
+        "System.Void Shared.Business.Services.ReportRepository::SaveExcelFile(System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto>,System.String)": {
+          "Lines": {
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "161": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "174": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "187": 0,
+            "188": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0
+          },
+          "Branches": [
+            {
+              "Line": 143,
+              "Offset": 7,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 320,
+              "EndOffset": 231,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 320,
+              "EndOffset": 322,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 176,
+              "Offset": 522,
+              "EndOffset": 375,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 179,
+              "Offset": 485,
+              "EndOffset": 409,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 179,
+              "Offset": 485,
+              "EndOffset": 487,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 176,
+              "Offset": 522,
+              "EndOffset": 527,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 143,
+              "Offset": 7,
+              "EndOffset": 578,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto> Shared.Business.Services.ReportRepository::ReadExcelFile(System.String)": {
+          "Lines": {
+            "196": 0,
+            "197": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "227": 0,
+            "228": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0
+          },
+          "Branches": [
+            {
+              "Line": 200,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 200,
+              "Offset": 16,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 214,
+              "Offset": 204,
+              "EndOffset": 160,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 214,
+              "Offset": 204,
+              "EndOffset": 206,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 219,
+              "Offset": 339,
+              "EndOffset": 233,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 222,
+              "Offset": 315,
+              "EndOffset": 256,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 222,
+              "Offset": 315,
+              "EndOffset": 317,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 219,
+              "Offset": 339,
+              "EndOffset": 341,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Shared.Business.Services.ReportRepository::GetCellValue(DocumentFormat.OpenXml.Packaging.SpreadsheetDocument,DocumentFormat.OpenXml.Spreadsheet.Cell)": {
+          "Lines": {
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "253": 0,
+            "254": 0,
+            "256": 0
+          },
+          "Branches": [
+            {
+              "Line": 248,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 248,
+              "Offset": 31,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 248,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 248,
+              "Offset": 52,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Shared.Business.Services.ReportRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Business.Services.ReportRepository/<>c": {
+        "System.Boolean Shared.Business.Services.ReportRepository/<>c::<CreateReport>b__4_0(Shared.Data.Models.ContactInformation)": {
+          "Lines": {
+            "77": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Shared.Business.Services.ReportRepository/<>c::<CreateReport>b__4_4(Shared.Data.Models.ContactInformation)": {
+          "Lines": {
+            "85": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Business.Services.ReportRepository/<>c__DisplayClass4_1": {
+        "System.Boolean Shared.Business.Services.ReportRepository/<>c__DisplayClass4_1::<CreateReport>b__3(Shared.Data.Models.ContactInformation)": {
+          "Lines": {
+            "83": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Business.Services.ReportRepository/<>c__DisplayClass4_2": {
+        "System.Boolean Shared.Business.Services.ReportRepository/<>c__DisplayClass4_2::<CreateReport>b__5(Shared.Data.Models.ContactInformation)": {
+          "Lines": {
+            "87": 0
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 17,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Business.Services.ReportRepository/<Add>d__3": {
+        "System.Void Shared.Business.Services.ReportRepository/<Add>d__3::MoveNext()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 51,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 395,
+              "EndOffset": 397,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 395,
+              "EndOffset": 464,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Business.Services.ReportRepository/<CreateReport>d__4": {
+        "System.Void Shared.Business.Services.ReportRepository/<CreateReport>d__4::MoveNext()": {
+          "Lines": {
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "66": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "76": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 548,
+              "EndOffset": 550,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 548,
+              "EndOffset": 576,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 1123,
+              "EndOffset": 838,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 1123,
+              "EndOffset": 1128,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Business.Services.ReportRepository/<Get>d__5": {
+        "System.Void Shared.Business.Services.ReportRepository/<Get>d__5::MoveNext()": {
+          "Lines": {
+            "110": 0,
+            "111": 0,
+            "113": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "121": 0,
+            "122": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0
+          },
+          "Branches": [
+            {
+              "Line": 115,
+              "Offset": 325,
+              "EndOffset": 327,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 325,
+              "EndOffset": 353,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Business.Services.ReportRepository/<GetAll>d__6": {
+        "System.Void Shared.Business.Services.ReportRepository/<GetAll>d__6::MoveNext()": {
+          "Lines": {
+            "130": 0,
+            "131": 0,
+            "133": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\ApiResult.cs": {
+      "Shared.Business.Dto.ApiResult": {
+        "System.Boolean Shared.Business.Dto.ApiResult::get_IsSucceed()": {
+          "Lines": {
+            "18": 62
+          },
+          "Branches": []
+        },
+        "System.Boolean Shared.Business.Dto.ApiResult::get_HasRight()": {
+          "Lines": {
+            "19": 62
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ApiResult::get_Message()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Shared.Business.Dto.ApiResult::.ctor()": {
+          "Lines": {
+            "12": 62,
+            "13": 62,
+            "14": 62,
+            "15": 62,
+            "16": 62
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Business.Dto.ApiResult`1": {
+        "T Shared.Business.Dto.ApiResult`1::get_ResultObject()": {
+          "Lines": {
+            "30": 52
+          },
+          "Branches": []
+        },
+        "System.Void Shared.Business.Dto.ApiResult`1::.ctor()": {
+          "Lines": {
+            "25": 62,
+            "26": 62,
+            "27": 62
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\ContactInformation\\ContactInformationAddRequestDto.cs": {
+      "Shared.Business.Dto.ContactInformationAddRequestDto": {
+        "System.Guid Shared.Business.Dto.ContactInformationAddRequestDto::get_ContactId()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        },
+        "Shared.Data.Enum.InformationEnum Shared.Business.Dto.ContactInformationAddRequestDto::get_InformationType()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ContactInformationAddRequestDto::get_Content()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\ContactInformation\\ContactInformationDto.cs": {
+      "Shared.Business.Dto.ContactInformationDto": {
+        "System.Guid Shared.Business.Dto.ContactInformationDto::get_Id()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "Shared.Data.Enum.InformationEnum Shared.Business.Dto.ContactInformationDto::get_InformationType()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ContactInformationDto::get_Content()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\Contact\\ContactAddRequestDto.cs": {
+      "Shared.Business.Dto.ContactAddRequestDto": {
+        "System.String Shared.Business.Dto.ContactAddRequestDto::get_FirstName()": {
+          "Lines": {
+            "11": 2
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ContactAddRequestDto::get_LastName()": {
+          "Lines": {
+            "12": 2
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ContactAddRequestDto::get_CompanyName()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\Contact\\ContactListResponseDto.cs": {
+      "Shared.Business.Dto.ContactListResponseDto": {
+        "System.Guid Shared.Business.Dto.ContactListResponseDto::get_Id()": {
+          "Lines": {
+            "11": 13
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ContactListResponseDto::get_FirstName()": {
+          "Lines": {
+            "12": 12
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ContactListResponseDto::get_LastName()": {
+          "Lines": {
+            "13": 12
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ContactListResponseDto::get_CompanyName()": {
+          "Lines": {
+            "14": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\Report\\ReportAddRequestDto.cs": {
+      "Shared.Business.Dto.ReportAddRequestDto": {
+        "System.DateTime Shared.Business.Dto.ReportAddRequestDto::get_RequestDate()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\Report\\ReportCreateDto.cs": {
+      "Shared.Business.Dto.ReportCreateDto": {
+        "System.Guid Shared.Business.Dto.ReportCreateDto::get_ReportId()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ReportCreateDto::get_Path()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\Report\\ReportDetailDto.cs": {
+      "Shared.Business.Dto.ReportDetailDto": {
+        "System.Guid Shared.Business.Dto.ReportDetailDto::get_Id()": {
+          "Lines": {
+            "12": 4
+          },
+          "Branches": []
+        },
+        "System.DateTime Shared.Business.Dto.ReportDetailDto::get_RequestDate()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ReportDetailDto::get_FileUrl()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        },
+        "Shared.Data.Enum.ReportStatus Shared.Business.Dto.ReportDetailDto::get_Status()": {
+          "Lines": {
+            "15": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto> Shared.Business.Dto.ReportDetailDto::get_ReportDatas()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\Report\\ReportListDto.cs": {
+      "Shared.Business.Dto.ReportListDto": {
+        "System.Guid Shared.Business.Dto.ReportListDto::get_Id()": {
+          "Lines": {
+            "12": 12
+          },
+          "Branches": []
+        },
+        "System.DateTime Shared.Business.Dto.ReportListDto::get_RequestDate()": {
+          "Lines": {
+            "13": 11
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.ReportListDto::get_FileUrl()": {
+          "Lines": {
+            "14": 11
+          },
+          "Branches": []
+        },
+        "Shared.Data.Enum.ReportStatus Shared.Business.Dto.ReportListDto::get_Status()": {
+          "Lines": {
+            "15": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\Report\\ReportViewDto.cs": {
+      "Shared.Business.Dto.ReportViewDto": {
+        "System.String Shared.Business.Dto.ReportViewDto::get_Content()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 Shared.Business.Dto.ReportViewDto::get_ContactCount()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 Shared.Business.Dto.ReportViewDto::get_RegisteredContactCount()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Business\\Dto\\SuccessResponseDto.cs": {
+      "Shared.Business.Dto.SuccessResponseDto": {
+        "System.Object Shared.Business.Dto.SuccessResponseDto::get_Id()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Shared.Business.Dto.SuccessResponseDto::get_Message()": {
+          "Lines": {
+            "12": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Shared.Data.dll": {
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\DesignTimeDbContextFactory.cs": {
+      "Shared.Data.DesignTimeDbContextFactory": {
+        "Shared.Data.FDbContext Shared.Data.DesignTimeDbContextFactory::CreateDbContext(System.String[])": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\FDbContext.cs": {
+      "Shared.Data.FDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.Contact> Shared.Data.FDbContext::get_Contacts()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.ContactInformation> Shared.Data.FDbContext::get_ContactInformations()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.Report> Shared.Data.FDbContext::get_Reports()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Shared.Data.FDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Shared.Data.FDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Shared.Data.FDbContext>)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\UoW\\UnitOfWork.cs": {
+      "Shared.Data.UoW.UnitOfWork": {
+        "Shared.Data.IGenericRepository`1<Shared.Data.Models.Contact> Shared.Data.UoW.UnitOfWork::get_ContactRepository()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 8,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Shared.Data.IGenericRepository`1<Shared.Data.Models.ContactInformation> Shared.Data.UoW.UnitOfWork::get_ContactInformationRepository()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 8,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Shared.Data.IGenericRepository`1<Shared.Data.Models.Report> Shared.Data.UoW.UnitOfWork::get_ReportRepository()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 8,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Shared.Data.UoW.UnitOfWork::Dispose(System.Boolean)": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": [
+            {
+              "Line": 63,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 18,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 12,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Shared.Data.UoW.UnitOfWork::Dispose()": {
+          "Lines": {
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": []
+        },
+        "System.Void Shared.Data.UoW.UnitOfWork::.ctor(Shared.Data.FDbContext)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "59": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Data.UoW.UnitOfWork/<Commit>d__11": {
+        "System.Void Shared.Data.UoW.UnitOfWork/<Commit>d__11::MoveNext()": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "57": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\Repository\\GenericRepository.cs": {
+      "Shared.Data.Repository.GenericRepository`1": {
+        "System.Void Shared.Data.Repository.GenericRepository`1::.ctor(Shared.Data.FDbContext)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<AddAsync>d__3": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<AddAsync>d__3::MoveNext()": {
+          "Lines": {
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<Any>d__9": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<Any>d__9::MoveNext()": {
+          "Lines": {
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<DeleteAsync>d__11": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<DeleteAsync>d__11::MoveNext()": {
+          "Lines": {
+            "95": 0,
+            "96": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "109": 0
+          },
+          "Branches": [
+            {
+              "Line": 98,
+              "Offset": 161,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 98,
+              "Offset": 161,
+              "EndOffset": 163,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<DeleteAsync>d__12": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<DeleteAsync>d__12::MoveNext()": {
+          "Lines": {
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<FindByAsync>d__7": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<FindByAsync>d__7::MoveNext()": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 150,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__4": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__4::MoveNext()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__5": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__5::MoveNext()": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 144,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 144,
+              "EndOffset": 146,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__6": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__6::MoveNext()": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 150,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<GetByIdAsync>d__8": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<GetByIdAsync>d__8::MoveNext()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": []
+        }
+      },
+      "Shared.Data.Repository.GenericRepository`1/<UpdateAsync>d__10": {
+        "System.Void Shared.Data.Repository.GenericRepository`1/<UpdateAsync>d__10::MoveNext()": {
+          "Lines": {
+            "80": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\Models\\Contact.cs": {
+      "Shared.Data.Models.Contact": {
+        "System.Guid Shared.Data.Models.Contact::get_Id()": {
+          "Lines": {
+            "11": 20
+          },
+          "Branches": []
+        },
+        "System.String Shared.Data.Models.Contact::get_FirstName()": {
+          "Lines": {
+            "12": 20
+          },
+          "Branches": []
+        },
+        "System.String Shared.Data.Models.Contact::get_LastName()": {
+          "Lines": {
+            "13": 20
+          },
+          "Branches": []
+        },
+        "System.String Shared.Data.Models.Contact::get_CompanyName()": {
+          "Lines": {
+            "14": 20
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Shared.Data.Models.ContactInformation> Shared.Data.Models.Contact::get_ContactInformations()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\Models\\ContactInformation.cs": {
+      "Shared.Data.Models.ContactInformation": {
+        "System.Guid Shared.Data.Models.ContactInformation::get_Id()": {
+          "Lines": {
+            "13": 12
+          },
+          "Branches": []
+        },
+        "System.Guid Shared.Data.Models.ContactInformation::get_ContactId()": {
+          "Lines": {
+            "16": 11
+          },
+          "Branches": []
+        },
+        "Shared.Data.Enum.InformationEnum Shared.Data.Models.ContactInformation::get_InformationType()": {
+          "Lines": {
+            "17": 11
+          },
+          "Branches": []
+        },
+        "System.String Shared.Data.Models.ContactInformation::get_Content()": {
+          "Lines": {
+            "18": 11
+          },
+          "Branches": []
+        },
+        "Shared.Data.Models.Contact Shared.Data.Models.ContactInformation::get_Contact()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\Models\\Report.cs": {
+      "Shared.Data.Models.Report": {
+        "System.Guid Shared.Data.Models.Report::get_Id()": {
+          "Lines": {
+            "12": 20
+          },
+          "Branches": []
+        },
+        "System.DateTime Shared.Data.Models.Report::get_RequestDate()": {
+          "Lines": {
+            "13": 20
+          },
+          "Branches": []
+        },
+        "System.String Shared.Data.Models.Report::get_FileUrl()": {
+          "Lines": {
+            "14": 20
+          },
+          "Branches": []
+        },
+        "Shared.Data.Enum.ReportStatus Shared.Data.Models.Report::get_Status()": {
+          "Lines": {
+            "15": 20
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\Migrations\\20220912142543_Initial.cs": {
+      "Shared.Data.Migrations.Initial": {
+        "System.Void Shared.Data.Migrations.Initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        },
+        "System.Void Shared.Data.Migrations.Initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\Migrations\\20220912142543_Initial.Designer.cs": {
+      "Shared.Data.Migrations.Initial": {
+        "System.Void Shared.Data.Migrations.Initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\frkdrgt\\Desktop\\MicroserviceSolution\\Shared\\Shared.Data\\Migrations\\FDbContextModelSnapshot.cs": {
+      "Shared.Data.Migrations.FDbContextModelSnapshot": {
+        "System.Void Shared.Data.Migrations.FDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "103": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1364 @@
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Services\ContactAPI\ContactAPI\Program.cs
+FN:14,System.Void ContactAPI.Program::Main(System.String[])
+FNDA:0,System.Void ContactAPI.Program::Main(System.String[])
+DA:15,0
+DA:16,0
+DA:17,0
+FN:19,Microsoft.Extensions.Hosting.IHostBuilder ContactAPI.Program::CreateHostBuilder(System.String[])
+FNDA:0,Microsoft.Extensions.Hosting.IHostBuilder ContactAPI.Program::CreateHostBuilder(System.String[])
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Services\ContactAPI\ContactAPI\Startup.cs
+FN:36,Microsoft.Extensions.Configuration.IConfiguration ContactAPI.Startup::get_Configuration()
+FNDA:0,Microsoft.Extensions.Configuration.IConfiguration ContactAPI.Startup::get_Configuration()
+DA:37,0
+FN:40,System.Void ContactAPI.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:0,System.Void ContactAPI.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:74,0
+DA:75,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:87,0
+DA:88,0
+FN:91,System.Void ContactAPI.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+FNDA:0,System.Void ContactAPI.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:110,0
+DA:112,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+BRDA:93,9,0,0
+BRDA:93,9,1,0
+FN:31,System.Void ContactAPI.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,System.Void ContactAPI.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+LF:67
+LH:0
+BRF:2
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Services\ContactAPI\ContactAPI\Controllers\ContactController.cs
+FN:18,System.Void ContactAPI.Controllers.ContactController::.ctor(Shared.Business.Abstract.IContactRepository,MassTransit.IBus,Shared.Business.Abstract.IReportRepository)
+FNDA:0,System.Void ContactAPI.Controllers.ContactController::.ctor(Shared.Business.Abstract.IContactRepository,MassTransit.IBus,Shared.Business.Abstract.IReportRepository)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+FN:50,System.Void ContactAPI.Controllers.ContactController/<Add>d__5::MoveNext()
+FNDA:0,System.Void ContactAPI.Controllers.ContactController/<Add>d__5::MoveNext()
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+BRDA:53,169,0,0
+BRDA:53,169,1,0
+FN:28,System.Void ContactAPI.Controllers.ContactController/<CreateReport>d__4::MoveNext()
+FNDA:0,System.Void ContactAPI.Controllers.ContactController/<CreateReport>d__4::MoveNext()
+DA:29,0
+DA:30,0
+DA:31,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+BRDA:34,222,0,0
+BRDA:34,222,1,0
+FN:86,System.Void ContactAPI.Controllers.ContactController/<Delete>d__8::MoveNext()
+FNDA:0,System.Void ContactAPI.Controllers.ContactController/<Delete>d__8::MoveNext()
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:93,0
+DA:94,0
+BRDA:89,169,0,0
+BRDA:89,169,1,0
+FN:74,System.Void ContactAPI.Controllers.ContactController/<Get>d__7::MoveNext()
+FNDA:0,System.Void ContactAPI.Controllers.ContactController/<Get>d__7::MoveNext()
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:81,0
+DA:82,0
+BRDA:77,169,0,0
+BRDA:77,169,1,0
+FN:62,System.Void ContactAPI.Controllers.ContactController/<GetAll>d__6::MoveNext()
+FNDA:0,System.Void ContactAPI.Controllers.ContactController/<GetAll>d__6::MoveNext()
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+DA:70,0
+BRDA:65,163,0,0
+BRDA:65,163,1,0
+LF:48
+LH:0
+BRF:10
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Services\ContactAPI\ContactAPI\Controllers\ContactInformationController.cs
+FN:14,System.Void ContactAPI.Controllers.ContactInformationController::.ctor(Shared.Business.Abstract.IContactInformationRepository)
+FNDA:0,System.Void ContactAPI.Controllers.ContactInformationController::.ctor(Shared.Business.Abstract.IContactInformationRepository)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:23,System.Void ContactAPI.Controllers.ContactInformationController/<Add>d__2::MoveNext()
+FNDA:0,System.Void ContactAPI.Controllers.ContactInformationController/<Add>d__2::MoveNext()
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:31,0
+BRDA:26,169,0,0
+BRDA:26,169,1,0
+FN:35,System.Void ContactAPI.Controllers.ContactInformationController/<Delete>d__3::MoveNext()
+FNDA:0,System.Void ContactAPI.Controllers.ContactInformationController/<Delete>d__3::MoveNext()
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:42,0
+DA:43,0
+BRDA:38,169,0,0
+BRDA:38,169,1,0
+LF:18
+LH:0
+BRF:4
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\Contact\ContactDetailResponseDto.cs
+FN:12,System.String Shared.Business.ContactDetailResponseDto::get_FirstName()
+FNDA:4,System.String Shared.Business.ContactDetailResponseDto::get_FirstName()
+DA:13,4
+FN:13,System.String Shared.Business.ContactDetailResponseDto::get_LastName()
+FNDA:2,System.String Shared.Business.ContactDetailResponseDto::get_LastName()
+DA:14,2
+FN:14,System.String Shared.Business.ContactDetailResponseDto::get_CompanyName()
+FNDA:2,System.String Shared.Business.ContactDetailResponseDto::get_CompanyName()
+DA:15,2
+FN:15,System.Collections.Generic.List`1<Shared.Business.Dto.ContactInformationDto> Shared.Business.ContactDetailResponseDto::get_ContactInformations()
+FNDA:0,System.Collections.Generic.List`1<Shared.Business.Dto.ContactInformationDto> Shared.Business.ContactDetailResponseDto::get_ContactInformations()
+DA:16,0
+LF:4
+LH:3
+BRF:0
+BRH:0
+FNF:4
+FNH:3
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Services\ContactInformationRepository.cs
+FN:18,System.Void Shared.Business.Services.ContactInformationRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)
+FNDA:0,System.Void Shared.Business.Services.ContactInformationRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+FN:25,System.Void Shared.Business.Services.ContactInformationRepository/<Add>d__3::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ContactInformationRepository/<Add>d__3::MoveNext()
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+BRDA:29,51,0,0
+BRDA:29,51,1,0
+BRDA:41,382,0,0
+BRDA:41,382,1,0
+FN:54,System.Void Shared.Business.Services.ContactInformationRepository/<Delete>d__4::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ContactInformationRepository/<Delete>d__4::MoveNext()
+DA:55,0
+DA:56,0
+DA:58,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:66,0
+DA:68,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+BRDA:60,350,0,0
+BRDA:60,350,1,0
+BRDA:70,639,0,0
+BRDA:70,639,1,0
+LF:46
+LH:0
+BRF:8
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Services\ContactRepository.cs
+FN:17,System.Void Shared.Business.Services.ContactRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)
+FNDA:0,System.Void Shared.Business.Services.ContactRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+FN:23,System.Void Shared.Business.Services.ContactRepository/<Add>d__3::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ContactRepository/<Add>d__3::MoveNext()
+DA:24,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:37,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+BRDA:27,51,0,0
+BRDA:27,51,1,0
+BRDA:39,382,0,0
+BRDA:39,382,1,0
+FN:51,System.Void Shared.Business.Services.ContactRepository/<Delete>d__4::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ContactRepository/<Delete>d__4::MoveNext()
+DA:52,0
+DA:53,0
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:63,0
+DA:65,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+BRDA:57,350,0,0
+BRDA:57,350,1,0
+BRDA:67,639,0,0
+BRDA:67,639,1,0
+FN:78,System.Void Shared.Business.Services.ContactRepository/<Get>d__5::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ContactRepository/<Get>d__5::MoveNext()
+DA:79,0
+DA:80,0
+DA:81,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:89,0
+DA:91,0
+DA:92,0
+DA:94,0
+DA:95,0
+BRDA:83,386,0,0
+BRDA:83,386,1,0
+FN:96,System.Void Shared.Business.Services.ContactRepository/<GetAll>d__6::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ContactRepository/<GetAll>d__6::MoveNext()
+DA:97,0
+DA:98,0
+DA:100,0
+DA:102,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+LF:66
+LH:0
+BRF:10
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Services\ReportRepository.cs
+FN:141,System.Void Shared.Business.Services.ReportRepository::SaveExcelFile(System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto>,System.String)
+FNDA:0,System.Void Shared.Business.Services.ReportRepository::SaveExcelFile(System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto>,System.String)
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:156,0
+DA:157,0
+DA:159,0
+DA:161,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:174,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:187,0
+DA:188,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:193,0
+BRDA:143,7,0,0
+BRDA:164,320,1,0
+BRDA:164,320,0,0
+BRDA:176,522,1,0
+BRDA:179,485,1,0
+BRDA:179,485,0,0
+BRDA:176,522,0,0
+BRDA:143,7,1,0
+FN:195,System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto> Shared.Business.Services.ReportRepository::ReadExcelFile(System.String)
+FNDA:0,System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto> Shared.Business.Services.ReportRepository::ReadExcelFile(System.String)
+DA:196,0
+DA:197,0
+DA:199,0
+DA:200,0
+DA:201,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:207,0
+DA:208,0
+DA:209,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:214,0
+DA:215,0
+DA:216,0
+DA:217,0
+DA:219,0
+DA:220,0
+DA:221,0
+DA:222,0
+DA:223,0
+DA:224,0
+DA:225,0
+DA:227,0
+DA:228,0
+DA:230,0
+DA:231,0
+DA:232,0
+DA:234,0
+DA:235,0
+DA:236,0
+DA:237,0
+DA:239,0
+DA:240,0
+DA:241,0
+BRDA:200,16,0,0
+BRDA:200,16,1,0
+BRDA:214,204,1,0
+BRDA:214,204,0,0
+BRDA:219,339,1,0
+BRDA:222,315,1,0
+BRDA:222,315,0,0
+BRDA:219,339,0,0
+FN:243,System.String Shared.Business.Services.ReportRepository::GetCellValue(DocumentFormat.OpenXml.Packaging.SpreadsheetDocument,DocumentFormat.OpenXml.Spreadsheet.Cell)
+FNDA:0,System.String Shared.Business.Services.ReportRepository::GetCellValue(DocumentFormat.OpenXml.Packaging.SpreadsheetDocument,DocumentFormat.OpenXml.Spreadsheet.Cell)
+DA:244,0
+DA:245,0
+DA:246,0
+DA:248,0
+DA:249,0
+DA:250,0
+DA:253,0
+DA:254,0
+DA:256,0
+BRDA:248,31,0,0
+BRDA:248,31,1,0
+BRDA:248,52,0,0
+BRDA:248,52,1,0
+FN:24,System.Void Shared.Business.Services.ReportRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)
+FNDA:0,System.Void Shared.Business.Services.ReportRepository::.ctor(Shared.Data.UoW.IUnitOfWork,AutoMapper.IMapper)
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+FN:76,System.Boolean Shared.Business.Services.ReportRepository/<>c::<CreateReport>b__4_0(Shared.Data.Models.ContactInformation)
+FNDA:0,System.Boolean Shared.Business.Services.ReportRepository/<>c::<CreateReport>b__4_0(Shared.Data.Models.ContactInformation)
+DA:77,0
+FN:84,System.Guid Shared.Business.Services.ReportRepository/<>c::<CreateReport>b__4_4(Shared.Data.Models.ContactInformation)
+FNDA:0,System.Guid Shared.Business.Services.ReportRepository/<>c::<CreateReport>b__4_4(Shared.Data.Models.ContactInformation)
+DA:85,0
+FN:82,System.Boolean Shared.Business.Services.ReportRepository/<>c__DisplayClass4_1::<CreateReport>b__3(Shared.Data.Models.ContactInformation)
+FNDA:0,System.Boolean Shared.Business.Services.ReportRepository/<>c__DisplayClass4_1::<CreateReport>b__3(Shared.Data.Models.ContactInformation)
+DA:83,0
+FN:86,System.Boolean Shared.Business.Services.ReportRepository/<>c__DisplayClass4_2::<CreateReport>b__5(Shared.Data.Models.ContactInformation)
+FNDA:0,System.Boolean Shared.Business.Services.ReportRepository/<>c__DisplayClass4_2::<CreateReport>b__5(Shared.Data.Models.ContactInformation)
+DA:87,0
+BRDA:87,17,0,0
+BRDA:87,17,1,0
+FN:30,System.Void Shared.Business.Services.ReportRepository/<Add>d__3::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ReportRepository/<Add>d__3::MoveNext()
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+BRDA:34,51,0,0
+BRDA:34,51,1,0
+BRDA:47,395,0,0
+BRDA:47,395,1,0
+FN:60,System.Void Shared.Business.Services.ReportRepository/<CreateReport>d__4::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ReportRepository/<CreateReport>d__4::MoveNext()
+DA:61,0
+DA:62,0
+DA:64,0
+DA:66,0
+DA:68,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:76,0
+DA:79,0
+DA:81,0
+DA:82,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:97,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+BRDA:70,548,0,0
+BRDA:70,548,1,0
+BRDA:81,1123,1,0
+BRDA:81,1123,0,0
+FN:109,System.Void Shared.Business.Services.ReportRepository/<Get>d__5::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ReportRepository/<Get>d__5::MoveNext()
+DA:110,0
+DA:111,0
+DA:113,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:121,0
+DA:122,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+BRDA:115,325,0,0
+BRDA:115,325,1,0
+FN:129,System.Void Shared.Business.Services.ReportRepository/<GetAll>d__6::MoveNext()
+FNDA:0,System.Void Shared.Business.Services.ReportRepository/<GetAll>d__6::MoveNext()
+DA:130,0
+DA:131,0
+DA:133,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+LF:168
+LH:0
+BRF:32
+BRH:0
+FNF:12
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\ApiResult.cs
+FN:17,System.Boolean Shared.Business.Dto.ApiResult::get_IsSucceed()
+FNDA:11,System.Boolean Shared.Business.Dto.ApiResult::get_IsSucceed()
+DA:18,11
+FN:18,System.Boolean Shared.Business.Dto.ApiResult::get_HasRight()
+FNDA:11,System.Boolean Shared.Business.Dto.ApiResult::get_HasRight()
+DA:19,11
+FN:19,System.String Shared.Business.Dto.ApiResult::get_Message()
+FNDA:0,System.String Shared.Business.Dto.ApiResult::get_Message()
+DA:20,0
+FN:11,System.Void Shared.Business.Dto.ApiResult::.ctor()
+FNDA:11,System.Void Shared.Business.Dto.ApiResult::.ctor()
+DA:12,11
+DA:13,11
+DA:14,11
+DA:15,11
+DA:16,11
+FN:29,T Shared.Business.Dto.ApiResult`1::get_ResultObject()
+FNDA:17,T Shared.Business.Dto.ApiResult`1::get_ResultObject()
+DA:30,17
+FN:24,System.Void Shared.Business.Dto.ApiResult`1::.ctor()
+FNDA:11,System.Void Shared.Business.Dto.ApiResult`1::.ctor()
+DA:25,11
+DA:26,11
+DA:27,11
+LF:12
+LH:11
+BRF:0
+BRH:0
+FNF:6
+FNH:5
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\ContactInformation\ContactInformationAddRequestDto.cs
+FN:11,System.Guid Shared.Business.Dto.ContactInformationAddRequestDto::get_ContactId()
+FNDA:0,System.Guid Shared.Business.Dto.ContactInformationAddRequestDto::get_ContactId()
+DA:12,0
+FN:12,Shared.Data.Enum.InformationEnum Shared.Business.Dto.ContactInformationAddRequestDto::get_InformationType()
+FNDA:0,Shared.Data.Enum.InformationEnum Shared.Business.Dto.ContactInformationAddRequestDto::get_InformationType()
+DA:13,0
+FN:13,System.String Shared.Business.Dto.ContactInformationAddRequestDto::get_Content()
+FNDA:0,System.String Shared.Business.Dto.ContactInformationAddRequestDto::get_Content()
+DA:14,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\ContactInformation\ContactInformationDto.cs
+FN:11,System.Guid Shared.Business.Dto.ContactInformationDto::get_Id()
+FNDA:0,System.Guid Shared.Business.Dto.ContactInformationDto::get_Id()
+DA:12,0
+FN:12,Shared.Data.Enum.InformationEnum Shared.Business.Dto.ContactInformationDto::get_InformationType()
+FNDA:0,Shared.Data.Enum.InformationEnum Shared.Business.Dto.ContactInformationDto::get_InformationType()
+DA:13,0
+FN:13,System.String Shared.Business.Dto.ContactInformationDto::get_Content()
+FNDA:0,System.String Shared.Business.Dto.ContactInformationDto::get_Content()
+DA:14,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\Contact\ContactAddRequestDto.cs
+FN:10,System.String Shared.Business.Dto.ContactAddRequestDto::get_FirstName()
+FNDA:2,System.String Shared.Business.Dto.ContactAddRequestDto::get_FirstName()
+DA:11,2
+FN:11,System.String Shared.Business.Dto.ContactAddRequestDto::get_LastName()
+FNDA:2,System.String Shared.Business.Dto.ContactAddRequestDto::get_LastName()
+DA:12,2
+FN:12,System.String Shared.Business.Dto.ContactAddRequestDto::get_CompanyName()
+FNDA:1,System.String Shared.Business.Dto.ContactAddRequestDto::get_CompanyName()
+DA:13,1
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\Contact\ContactListResponseDto.cs
+FN:10,System.Guid Shared.Business.Dto.ContactListResponseDto::get_Id()
+FNDA:8,System.Guid Shared.Business.Dto.ContactListResponseDto::get_Id()
+DA:11,8
+FN:11,System.String Shared.Business.Dto.ContactListResponseDto::get_FirstName()
+FNDA:7,System.String Shared.Business.Dto.ContactListResponseDto::get_FirstName()
+DA:12,7
+FN:12,System.String Shared.Business.Dto.ContactListResponseDto::get_LastName()
+FNDA:7,System.String Shared.Business.Dto.ContactListResponseDto::get_LastName()
+DA:13,7
+FN:13,System.String Shared.Business.Dto.ContactListResponseDto::get_CompanyName()
+FNDA:7,System.String Shared.Business.Dto.ContactListResponseDto::get_CompanyName()
+DA:14,7
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\Report\ReportAddRequestDto.cs
+FN:10,System.DateTime Shared.Business.Dto.ReportAddRequestDto::get_RequestDate()
+FNDA:0,System.DateTime Shared.Business.Dto.ReportAddRequestDto::get_RequestDate()
+DA:11,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\Report\ReportCreateDto.cs
+FN:10,System.Guid Shared.Business.Dto.ReportCreateDto::get_ReportId()
+FNDA:0,System.Guid Shared.Business.Dto.ReportCreateDto::get_ReportId()
+DA:11,0
+FN:11,System.String Shared.Business.Dto.ReportCreateDto::get_Path()
+FNDA:0,System.String Shared.Business.Dto.ReportCreateDto::get_Path()
+DA:12,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\Report\ReportDetailDto.cs
+FN:11,System.Guid Shared.Business.Dto.ReportDetailDto::get_Id()
+FNDA:0,System.Guid Shared.Business.Dto.ReportDetailDto::get_Id()
+DA:12,0
+FN:12,System.DateTime Shared.Business.Dto.ReportDetailDto::get_RequestDate()
+FNDA:0,System.DateTime Shared.Business.Dto.ReportDetailDto::get_RequestDate()
+DA:13,0
+FN:13,System.String Shared.Business.Dto.ReportDetailDto::get_FileUrl()
+FNDA:0,System.String Shared.Business.Dto.ReportDetailDto::get_FileUrl()
+DA:14,0
+FN:14,Shared.Data.Enum.ReportStatus Shared.Business.Dto.ReportDetailDto::get_Status()
+FNDA:0,Shared.Data.Enum.ReportStatus Shared.Business.Dto.ReportDetailDto::get_Status()
+DA:15,0
+FN:15,System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto> Shared.Business.Dto.ReportDetailDto::get_ReportDatas()
+FNDA:0,System.Collections.Generic.List`1<Shared.Business.Dto.ReportViewDto> Shared.Business.Dto.ReportDetailDto::get_ReportDatas()
+DA:16,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\Report\ReportListDto.cs
+FN:11,System.Guid Shared.Business.Dto.ReportListDto::get_Id()
+FNDA:0,System.Guid Shared.Business.Dto.ReportListDto::get_Id()
+DA:12,0
+FN:12,System.DateTime Shared.Business.Dto.ReportListDto::get_RequestDate()
+FNDA:0,System.DateTime Shared.Business.Dto.ReportListDto::get_RequestDate()
+DA:13,0
+FN:13,System.String Shared.Business.Dto.ReportListDto::get_FileUrl()
+FNDA:0,System.String Shared.Business.Dto.ReportListDto::get_FileUrl()
+DA:14,0
+FN:14,Shared.Data.Enum.ReportStatus Shared.Business.Dto.ReportListDto::get_Status()
+FNDA:0,Shared.Data.Enum.ReportStatus Shared.Business.Dto.ReportListDto::get_Status()
+DA:15,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\Report\ReportViewDto.cs
+FN:10,System.String Shared.Business.Dto.ReportViewDto::get_Content()
+FNDA:0,System.String Shared.Business.Dto.ReportViewDto::get_Content()
+DA:11,0
+FN:11,System.Int32 Shared.Business.Dto.ReportViewDto::get_ContactCount()
+FNDA:0,System.Int32 Shared.Business.Dto.ReportViewDto::get_ContactCount()
+DA:12,0
+FN:12,System.Int32 Shared.Business.Dto.ReportViewDto::get_RegisteredContactCount()
+FNDA:0,System.Int32 Shared.Business.Dto.ReportViewDto::get_RegisteredContactCount()
+DA:13,0
+LF:3
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Business\Dto\SuccessResponseDto.cs
+FN:10,System.Object Shared.Business.Dto.SuccessResponseDto::get_Id()
+FNDA:0,System.Object Shared.Business.Dto.SuccessResponseDto::get_Id()
+DA:11,0
+FN:11,System.String Shared.Business.Dto.SuccessResponseDto::get_Message()
+FNDA:0,System.String Shared.Business.Dto.SuccessResponseDto::get_Message()
+DA:12,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\DesignTimeDbContextFactory.cs
+FN:13,Shared.Data.FDbContext Shared.Data.DesignTimeDbContextFactory::CreateDbContext(System.String[])
+FNDA:0,Shared.Data.FDbContext Shared.Data.DesignTimeDbContextFactory::CreateDbContext(System.String[])
+DA:14,0
+DA:15,0
+DA:16,0
+DA:18,0
+DA:19,0
+DA:20,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\FDbContext.cs
+FN:18,Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.Contact> Shared.Data.FDbContext::get_Contacts()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.Contact> Shared.Data.FDbContext::get_Contacts()
+DA:19,0
+FN:19,Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.ContactInformation> Shared.Data.FDbContext::get_ContactInformations()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.ContactInformation> Shared.Data.FDbContext::get_ContactInformations()
+DA:20,0
+FN:20,Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.Report> Shared.Data.FDbContext::get_Reports()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<Shared.Data.Models.Report> Shared.Data.FDbContext::get_Reports()
+DA:21,0
+FN:22,System.Void Shared.Data.FDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Shared.Data.FDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:23,0
+DA:24,0
+DA:25,0
+FN:13,System.Void Shared.Data.FDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Shared.Data.FDbContext>)
+FNDA:0,System.Void Shared.Data.FDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Shared.Data.FDbContext>)
+DA:14,0
+DA:15,0
+DA:17,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\UoW\UnitOfWork.cs
+FN:25,Shared.Data.IGenericRepository`1<Shared.Data.Models.Contact> Shared.Data.UoW.UnitOfWork::get_ContactRepository()
+FNDA:0,Shared.Data.IGenericRepository`1<Shared.Data.Models.Contact> Shared.Data.UoW.UnitOfWork::get_ContactRepository()
+DA:26,0
+BRDA:26,8,0,0
+BRDA:26,8,1,0
+FN:30,Shared.Data.IGenericRepository`1<Shared.Data.Models.ContactInformation> Shared.Data.UoW.UnitOfWork::get_ContactInformationRepository()
+FNDA:0,Shared.Data.IGenericRepository`1<Shared.Data.Models.ContactInformation> Shared.Data.UoW.UnitOfWork::get_ContactInformationRepository()
+DA:31,0
+BRDA:31,8,0,0
+BRDA:31,8,1,0
+FN:35,Shared.Data.IGenericRepository`1<Shared.Data.Models.Report> Shared.Data.UoW.UnitOfWork::get_ReportRepository()
+FNDA:0,Shared.Data.IGenericRepository`1<Shared.Data.Models.Report> Shared.Data.UoW.UnitOfWork::get_ReportRepository()
+DA:36,0
+BRDA:36,8,0,0
+BRDA:36,8,1,0
+FN:61,System.Void Shared.Data.UoW.UnitOfWork::Dispose(System.Boolean)
+FNDA:0,System.Void Shared.Data.UoW.UnitOfWork::Dispose(System.Boolean)
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+BRDA:63,12,0,0
+BRDA:65,18,0,0
+BRDA:65,18,1,0
+BRDA:63,12,1,0
+FN:73,System.Void Shared.Data.UoW.UnitOfWork::Dispose()
+FNDA:0,System.Void Shared.Data.UoW.UnitOfWork::Dispose()
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+FN:18,System.Void Shared.Data.UoW.UnitOfWork::.ctor(Shared.Data.FDbContext)
+FNDA:0,System.Void Shared.Data.UoW.UnitOfWork::.ctor(Shared.Data.FDbContext)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:59,0
+FN:39,System.Void Shared.Data.UoW.UnitOfWork/<Commit>d__11::MoveNext()
+FNDA:0,System.Void Shared.Data.UoW.UnitOfWork/<Commit>d__11::MoveNext()
+DA:40,0
+DA:41,0
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:57,0
+LF:35
+LH:0
+BRF:10
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\Repository\GenericRepository.cs
+FN:15,System.Void Shared.Data.Repository.GenericRepository`1::.ctor(Shared.Data.FDbContext)
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1::.ctor(Shared.Data.FDbContext)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+FN:22,System.Void Shared.Data.Repository.GenericRepository`1/<AddAsync>d__3::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<AddAsync>d__3::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:33,0
+FN:73,System.Void Shared.Data.Repository.GenericRepository`1/<Any>d__9::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<Any>d__9::MoveNext()
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+FN:94,System.Void Shared.Data.Repository.GenericRepository`1/<DeleteAsync>d__11::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<DeleteAsync>d__11::MoveNext()
+DA:95,0
+DA:96,0
+DA:98,0
+DA:99,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:109,0
+BRDA:98,161,1,0
+BRDA:98,161,0,0
+FN:111,System.Void Shared.Data.Repository.GenericRepository`1/<DeleteAsync>d__12::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<DeleteAsync>d__12::MoveNext()
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+FN:57,System.Void Shared.Data.Repository.GenericRepository`1/<FindByAsync>d__7::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<FindByAsync>d__7::MoveNext()
+DA:58,0
+DA:59,0
+DA:61,0
+DA:62,0
+DA:64,0
+DA:65,0
+BRDA:61,150,1,0
+BRDA:61,150,0,0
+FN:35,System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__4::MoveNext()
+DA:36,0
+DA:37,0
+DA:38,0
+FN:39,System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__5::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__5::MoveNext()
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+BRDA:42,144,1,0
+BRDA:42,144,0,0
+FN:47,System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__6::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<GetAllAsync>d__6::MoveNext()
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+BRDA:51,150,1,0
+BRDA:51,150,0,0
+FN:68,System.Void Shared.Data.Repository.GenericRepository`1/<GetByIdAsync>d__8::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<GetByIdAsync>d__8::MoveNext()
+DA:69,0
+DA:70,0
+DA:71,0
+FN:79,System.Void Shared.Data.Repository.GenericRepository`1/<UpdateAsync>d__10::MoveNext()
+FNDA:0,System.Void Shared.Data.Repository.GenericRepository`1/<UpdateAsync>d__10::MoveNext()
+DA:80,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:86,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:92,0
+LF:65
+LH:0
+BRF:8
+BRH:0
+FNF:11
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\Models\Contact.cs
+FN:10,System.Guid Shared.Data.Models.Contact::get_Id()
+FNDA:10,System.Guid Shared.Data.Models.Contact::get_Id()
+DA:11,10
+FN:11,System.String Shared.Data.Models.Contact::get_FirstName()
+FNDA:10,System.String Shared.Data.Models.Contact::get_FirstName()
+DA:12,10
+FN:12,System.String Shared.Data.Models.Contact::get_LastName()
+FNDA:10,System.String Shared.Data.Models.Contact::get_LastName()
+DA:13,10
+FN:13,System.String Shared.Data.Models.Contact::get_CompanyName()
+FNDA:10,System.String Shared.Data.Models.Contact::get_CompanyName()
+DA:14,10
+FN:15,System.Collections.Generic.List`1<Shared.Data.Models.ContactInformation> Shared.Data.Models.Contact::get_ContactInformations()
+FNDA:0,System.Collections.Generic.List`1<Shared.Data.Models.ContactInformation> Shared.Data.Models.Contact::get_ContactInformations()
+DA:16,0
+LF:5
+LH:4
+BRF:0
+BRH:0
+FNF:5
+FNH:4
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\Models\ContactInformation.cs
+FN:12,System.Guid Shared.Data.Models.ContactInformation::get_Id()
+FNDA:0,System.Guid Shared.Data.Models.ContactInformation::get_Id()
+DA:13,0
+FN:15,System.Guid Shared.Data.Models.ContactInformation::get_ContactId()
+FNDA:0,System.Guid Shared.Data.Models.ContactInformation::get_ContactId()
+DA:16,0
+FN:16,Shared.Data.Enum.InformationEnum Shared.Data.Models.ContactInformation::get_InformationType()
+FNDA:0,Shared.Data.Enum.InformationEnum Shared.Data.Models.ContactInformation::get_InformationType()
+DA:17,0
+FN:17,System.String Shared.Data.Models.ContactInformation::get_Content()
+FNDA:0,System.String Shared.Data.Models.ContactInformation::get_Content()
+DA:18,0
+FN:19,Shared.Data.Models.Contact Shared.Data.Models.ContactInformation::get_Contact()
+FNDA:0,Shared.Data.Models.Contact Shared.Data.Models.ContactInformation::get_Contact()
+DA:20,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\Models\Report.cs
+FN:11,System.Guid Shared.Data.Models.Report::get_Id()
+FNDA:0,System.Guid Shared.Data.Models.Report::get_Id()
+DA:12,0
+FN:12,System.DateTime Shared.Data.Models.Report::get_RequestDate()
+FNDA:0,System.DateTime Shared.Data.Models.Report::get_RequestDate()
+DA:13,0
+FN:13,System.String Shared.Data.Models.Report::get_FileUrl()
+FNDA:0,System.String Shared.Data.Models.Report::get_FileUrl()
+DA:14,0
+FN:14,Shared.Data.Enum.ReportStatus Shared.Data.Models.Report::get_Status()
+FNDA:0,Shared.Data.Enum.ReportStatus Shared.Data.Models.Report::get_Status()
+DA:15,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\Migrations\20220912142543_Initial.cs
+FN:10,System.Void Shared.Data.Migrations.Initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Shared.Data.Migrations.Initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+FN:66,System.Void Shared.Data.Migrations.Initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Shared.Data.Migrations.Initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:67,0
+DA:68,0
+DA:69,0
+DA:71,0
+DA:72,0
+DA:74,0
+DA:75,0
+DA:76,0
+LF:59
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\Migrations\20220912142543_Initial.Designer.cs
+FN:18,System.Void Shared.Data.Migrations.Initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Shared.Data.Migrations.Initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:105,0
+LF:79
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\frkdrgt\Desktop\MicroserviceSolution\Shared\Shared.Data\Migrations\FDbContextModelSnapshot.cs
+FN:16,System.Void Shared.Data.Migrations.FDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Shared.Data.Migrations.FDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:103,0
+LF:79
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
