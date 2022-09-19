@@ -11,7 +11,7 @@ using Shared.Data.UoW;
 
 namespace ApiTests
 {
-    public class UnitTest1
+    public class AppTest
     {
         /// <summary>
         /// Constructor
@@ -38,12 +38,12 @@ namespace ApiTests
             });
             return mapper.CreateMapper();
         }
-        public UnitTest1()
+        public AppTest()
         {
             var mapper = LoadMapper();
 
             #region Contact Mock
-            var userList = new List<Contact>
+            var contactList = new List<Contact>
             {
                 new Contact {
                     Id = Guid.Parse("0f8fad5b-d9cb-469f-a165-70867728950e"),
@@ -53,23 +53,23 @@ namespace ApiTests
                 }
             };
 
-            var contactList = mapper.Map<List<ContactListResponseDto>>(userList);
+            var contactListDto = mapper.Map<List<ContactListResponseDto>>(contactList);
             var apiList = new ApiResult<List<ContactListResponseDto>>();
 
-            apiList.ResultObject = contactList;
+            apiList.ResultObject = contactListDto;
 
 
-            var mockUserRepository = new Mock<IContactRepository>();
-            mockUserRepository.Setup(mr => mr.GetAll()).ReturnsAsync(apiList);
+            var mockContactRepository = new Mock<IContactRepository>();
+            mockContactRepository.Setup(mr => mr.GetAll()).ReturnsAsync(apiList);
 
             var contactDetail = new ApiResult<ContactDetailResponseDto>();
-            mockUserRepository.Setup(mr => mr.Get(It.IsAny<Guid>()).Result).Returns((Guid i) =>
+            mockContactRepository.Setup(mr => mr.Get(It.IsAny<Guid>()).Result).Returns((Guid i) =>
                 apiList.ResultObject.Where(x => x.Id == i)
                 .Select(x => new ApiResult<ContactDetailResponseDto> { ResultObject = mapper.Map<ContactDetailResponseDto>(x) })
                 .FirstOrDefault());
 
 
-            mockUserRepository.Setup(mr => mr.Add(It.IsAny<ContactAddRequestDto>())).Callback(
+            mockContactRepository.Setup(mr => mr.Add(It.IsAny<ContactAddRequestDto>())).Callback(
                 (ContactAddRequestDto target) =>
                 {
                     apiList.ResultObject.Add(new ContactListResponseDto
@@ -81,7 +81,7 @@ namespace ApiTests
                 });
 
 
-            mockUserRepository.Setup(mr => mr.Delete(It.IsAny<Guid>())).Callback(
+            mockContactRepository.Setup(mr => mr.Delete(It.IsAny<Guid>())).Callback(
                 (Guid target) =>
                 {
                     apiList.ResultObject.Remove(apiList.ResultObject.Where(x => x.Id == target).FirstOrDefault());
@@ -89,7 +89,7 @@ namespace ApiTests
                 });
 
 
-            this.MockContactRepository = mockUserRepository.Object;
+            this.MockContactRepository = mockContactRepository.Object;
             #endregion
 
             #region Report Mock
